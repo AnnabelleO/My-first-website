@@ -1,6 +1,6 @@
 body { 
 color:black;
-font-family: fantasy;
+font-family: serif;
 margin: 1px;
 background-image: url("forest.jpg");
 text-align: center;
@@ -8,4 +8,30 @@ text-align: center;
 
 p {
 text-align: center;
+}
+
+a {
+  color: darkgreen;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.box{
+position: relative;
+max-width: 400px;
+padding: 50px;
+background: rgba(255, 255, 255,.5);
+box-shadow: 0 5px 15px rgba(0,0,0,.5);    
+}
+
+ul {    
+list-style-type: circle;
+list-style-position: inside;
+justify-content: space-between;
+margin: 0;
+padding: 0;
+    
 }
